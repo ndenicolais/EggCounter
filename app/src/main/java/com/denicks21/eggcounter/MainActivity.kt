@@ -43,8 +43,8 @@ class MainActivity : ComponentActivity() {
                     color = MaterialTheme.colors.surface
                 ) {
                     val systemUiController = rememberSystemUiController()
-                    val statusBarColor = MaterialTheme.colors.onPrimary
-                    val navigationBarColor = MaterialTheme.colors.onSecondary
+                    val statusBarColor = MaterialTheme.colors.surface
+                    val navigationBarColor = MaterialTheme.colors.onSurface
                     val barIcons = isSystemInDarkTheme()
 
                     SideEffect {
